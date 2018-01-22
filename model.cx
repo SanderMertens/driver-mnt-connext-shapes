@@ -1,0 +1,13 @@
+in package /driver/mnt/connext/shapes
+
+class MyShapeType:/
+    shape: string, tags={tags/shape}
+    color: string, tags={tags/color}
+    x: float32, tags={tags/position/x}
+    y: float32, tags={tags/position/y}
+    size: float32, tags={tags/size}
+
+class mount: vstore/mount:/
+    domainId: uint16
+    topic: string
+    int16 construct()
