@@ -21,4 +21,4 @@ This will listen for the topic `Square` on domain `1`, and mount data under `dat
 The mount uses the `MyShapeType` type (see `model.cx`) type to instantiate shapes in the corto store. This type mirrors the DDS `ShapeType` type, but adds semantic annotations to the members. These unambiguously let applications know what the meaning of a member is, which can then be interpreted by applications that have no built-in knowledge about the shape type.
 
 ## Building
-To build the project, you must have RTI Connext installed. See RTI Connext documentation on how to setup the environment for building.
+To build the project, you must have RTI Connext DDS (www.rti.com) installed. See RTI Connext documentation on how to setup the environment for building.
